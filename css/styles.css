@@ -1,0 +1,165 @@
+/* eric meyer reset
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* reset code ends */
+header{
+	z-index: 1000;
+	background : #3498db;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+}
+header input {
+	padding-left: 5px;
+	margin: 15px 0px 0px 15px;
+	height: 40px;
+	width: 220px;
+	background: rgba(255,255,255,0.4);
+	color: white;
+	border:none;
+	border-radius : 8px;
+	font-size: 20px;
+}
+table {
+	position: absolute;
+	top: 100px;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	width: auto;
+	height: auto;
+}
+table{
+	width: auto;
+	height: auto;
+	cursor: cell;
+
+}
+tr{
+	width: auto;
+	height: auto;
+}
+td{
+	border: 1px #3498db solid;
+	background: #fff;
+	width: 100px;
+	height: 20px;
+	cursor: cell;
+}
+td:hover{
+	background: #ecf0f1;	
+}
+th{
+	background: rgba(52, 152, 219,0.5);
+	width: 70px;
+	height: 20px;
+	padding-top: 5px;
+	cursor: pointer;
+}
+tr : first-child{
+	background: blue;
+}
+table input {
+background: inherit;
+border:none;
+cursor: cell;
+width: inherit;
+height: inherit;
+}
+
+input :hover {
+	background: #eee;
+}
+
+input:focus {
+	-moz-box-shadow:    inset 0 0 5px rgba(52, 152, 219,1.0);
+	-webkit-box-shadow: inset 0 0 5px rgba(52, 152, 219,1.0);
+	box-shadow:         inset 0 0 5px rgba(52, 152, 219,1.0);
+	outline: none;
+	 cursor: text;
+}
+button {
+   border-top: 1px solid #4db6f7;
+   background: #58b6f0;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9cceed), to(#58b6f0));
+   background: -webkit-linear-gradient(top, #9cceed, #58b6f0);
+   background: -moz-linear-gradient(top, #9cceed, #58b6f0);
+   background: -ms-linear-gradient(top, #9cceed, #58b6f0);
+   background: -o-linear-gradient(top, #9cceed, #58b6f0);
+   padding: 5px 12px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #ffffff;
+   font-size: 14px;
+   font-family: Georgia, Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   border: :none;
+   }
+button:hover {
+   border-top-color: #1189d9;
+   background: #1189d9;
+   color: #ffffff;
+   }
+button:active {
+   border-top-color: #11aaf7;
+   background: #11aaf7;
+   }
+  .addButtons{
+  	right: 20px;
+  	position: absolute;
+
+  }
+  .tooltip{
+  	position: absolute;
+  	bottom: 2px;
+  	text-align: center;
+  	color:white;
+  	padding: 4px 10px;
+  	background:rgba(255,255,255,0.4);
+	left:50%;
+	margin-left:-200px;  
+  }
